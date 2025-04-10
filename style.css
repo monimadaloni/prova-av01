@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+body{
+  line-height: 1.6;
+  margin: 0;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header{
+  margin:0 5em;
+  padding: 20px 0;
+  background-color: #002b5c;
+  height: 5.5em;
+}
+
+.logo {
+  margin-top: 0em;
+  margin-left: 10%;
+  margin-right: 7%;
+  display: flex;
+  width: 35em;
+  justify-content: space-between;
+  font-size: small;
+  gap: 200px;
+}
+
+.logo img{
+  margin-top: 2%;
+  margin-right: 35%;
+  width: 25%;
+  display: flex;
+  align-items:center;
+}
+
+.links-logo{
+  margin-top: 4em;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction:row;
+  align-items: right;
+  gap: 15px;
+  color:#ccc;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.sobre-nos{
+  margin-top: 0em;
+  padding: 2em;
+  width:65em;
+  background-color: rgb(24, 74, 106);
+  background-size: 10em;
+  display: flex;
+  font-size: medium;
+  height: 20em;
+  align-items: center;
+}
+
+.sobre-nos h1{
+  margin-right: 1.5em;
+  margin-left: 3.3em;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ccc;
+}
+
+.sobre-nos p{
+  margin-right: 1.5em;
+  margin-left: 5em;
+  font-size: 1em;
+  color: #ccc;
+}
+
+.sobre-nos img{
+  margin-right: 3em;
+  margin-left: 13em;
+  width: 15em;
+  display: flex;
+  position:relative;
+  -ms-flex-align: left;
+}
+
+#depoimentos{
+  margin-top: 0em;
+  padding: 2em;
+  width:65em;
+  background-color: rgb(255, 252, 234);
+  background-size: 1.5em;
+  display: flex;
+  font-size: medium;
+  height: 10em;
+  align-items: center;
+}
+
+#depoimentos h2{
+  color: rgb(24, 74, 106);
+}
+
+#depoimentos p{
+  color: rgb(196, 113, 10);
+}
+
+footer{
+  margin:0 6em;
+  padding: 20px 0;
+  background-color: #002b5c;
+  text-align: center;
+  color:rgb(255, 252, 234);
+  font-size: small;
+}
+
+.facebook{
+  color:gold;
+}
+
+.linkedin{
+  color: gold;
+}
